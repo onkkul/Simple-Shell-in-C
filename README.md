@@ -1,4 +1,4 @@
-#***Advanced Shell in C***
+#***ADVANCED SHELL in C***
 
 The shell is the command interpretor in an operating system such as Unix or GNU/Linux.
 Shell is a program that executes other programs.
