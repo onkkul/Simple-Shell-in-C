@@ -1,18 +1,34 @@
-# ADVANCED SHELL in C
+#SIMPLE SHELL in C Language
 
 The shell is the command interpretor in an operating system such as Unix or GNU/Linux.
-Shell is a program that executes other programs.
-It provides a computer user an interface to the Unix/GNU Linux system so that the user can run different commands or utilities/tools with some input data.
+It is a program that executes other programs.
+It provides user a command line interface to the Unix/GNU Linux system.
+This project emulates Linux Shell in C language.
+Though I named it Simple-Shell-in-C, it supports all the complex functionalities!!
 
-This repository contains C code to imitate the **working of a shell.**
+**Used System Calls:**
+1. fork()
+2. dup2()
+3. execvp()
+4. close()
+5. perror()
+6. exit()
 
-The shell supports:
-- Simple commands
-- Builtins
-- Input redirection
-- Pipes
-- Arguments
+**Builtins:**
+- exit
+- cd
+- help
 
-File Description:
-- **cmdline.c** -> takes the input from terminal and Tokenizes it.
-- **shell.c** -> processes the tokenized input
+**Execution Instrucitons:**
+- Step 1. make clean
+- Step 2. make
+    or
+- Step 1. gcc cmdline.c shell.c
+- Step 2. ./a.out
+
+**file descriptions:***
+- cmdline.c : takes input from command line and tokenizes it for shell.c
+- shell.c : main shell simulation
+
+***In short, all that you are searching for the assignment... ;-)</br>
+Star it and Spread the news!!***
