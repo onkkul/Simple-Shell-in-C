@@ -1,4 +1,4 @@
-#SIMPLE SHELL in C Language
+# SIMPLE SHELL in C Language
 
 The shell is the command interpretor in an operating system such as Unix or GNU/Linux.
 It is a program that executes other programs.
