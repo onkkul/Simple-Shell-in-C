@@ -21,8 +21,8 @@ Though I named it Simple-Shell-in-C, it supports all the complex functionalities
 
 **Execution Instrucitons:**
 - Step 1. make clean
-- Step 2. make
--    or
+- Step 2. make </br>
+    or </br>
 - Step 1. gcc cmdline.c shell.c
 - Step 2. ./a.out
 
